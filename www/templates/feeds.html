@@ -1,0 +1,117 @@
+<ion-view view-title='<img src="img/menu-logo.png" class="logo-menu">' align-title="center" hide-nav-bar="true"  animation="slide-left-right" >
+    <ion-content ng-class="{expanded:isExpanded}" class="animate-fade-slide-in">
+        <div class="page">
+    
+      <div class="page-content text-center pad-bot0">
+
+
+       <h1 class="mar-top8per font28">Showcase  your execution</h1>
+       <p class="login-underline"></p>
+
+      <div class="text-box-container">
+
+          <div class="bg-silver"> 
+
+            <p class="float-left post">
+              <img src="img/pencil.png">
+              CREATE A POST
+            </p>
+
+            <p>
+              <img src="img/image.png">
+              UPLOAD PHOTO
+              <input type="file" onchange="readFile(this)" id="myFile" />
+            </p> 
+
+          </div>
+          <input type="hidden" id="img_data" value="" />
+          <textarea id="feed_content" class="textarea" placeholder="Text here..."></textarea>
+      </div>
+
+
+      <div class="fullwidth text-right">
+        <a href="" ng-click="feed()" class="upload"> UPLOAD</a>
+      </div>
+
+	  <div id="all_feeds">
+	  	<!-- Here content will come from API. -->
+	  </div>
+      <!--
+<div class="feed-box">
+        <div class="user">
+          <img class="float-left mar-right3per" src="img/user.png">
+          <h1>MORDEN KEITH</h1>
+          <p>Mumbai</p>
+        </div>
+        <img width="100%" src="img/sleepinglady.png">
+        <div class="feed-border">
+          <h1 class="mar-topbot3per">What is Lorem Ipsum?</h1>
+          <p class="feed-content">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="feed-box">
+        <div class="user">
+          <img class="float-left mar-right3per" src="img/user.png">
+          <h1>MORDEN KEITH</h1>
+          <p>Mumbai</p>
+        </div>
+        <div class="feed-border">
+          <h1 class="mar-topbot3per">What is Lorem Ipsum?</h1>
+          <p class="feed-content">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </div>
+      </div>
+
+
+
+      <div class="feed-box">
+        <div class="user">
+          <img class="float-left mar-right3per" src="img/user.png">
+          <h1>MORDEN KEITH</h1>
+          <p>Mumbai</p>
+        </div>
+        <div class="feed-border">
+          <h1 class="mar-topbot3per">What is Lorem Ipsum?</h1>
+          <p class="feed-content">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book.
+          </p>
+        </div>
+      </div>
+-->
+
+
+      <div class="width100 text-right">
+          <img class="backtotop text-right" src="img/backtotop.png">
+      </div>
+
+
+      <a ui-sref="app.update">update</a>
+
+
+
+  </div>
+
+<!--   <div class="toolbar">
+    <div class="toolbar-inner">
+      <a href="#" class="link">Link 3</a>
+      <a href="#" class="link">Link 4</a>
+    </div>
+  </div> -->
+
+</div>
+    </ion-content>
+</ion-view>

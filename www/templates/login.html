@@ -1,0 +1,25 @@
+<ion-view view-title="Login" align-title="left">
+    <ion-content >
+      <div class="page-content text-center no-pad">
+          <img class="pink-bg" src="img/pink_bg.png">
+          <img class="fl-bottle" src="img/fl_bottle.png">
+          <img class="login-logo" src="img/login-logo.png">
+          <div class="mar-bot-5per">
+            <h3 class="login-text">ENTER YOUR EMPLOYEE ID</h3>
+            <p class="login-underline"></p>
+          </div>
+          <input id="emp_id" class="login-text-box" type="text" ng-model='emp_id' name="emp_id" placeholder="Eg: 000441898" value="" />
+          <br>
+
+          <a href="">
+            <input ng-click="login()" class="login-btn" type="submit" name="" value="LOGIN">
+          </a>
+
+          <br>
+
+          <a ui-sref="app.dashboard">dashboard</a>
+
+      </div>
+    </ion-content>
+</ion-view>
+

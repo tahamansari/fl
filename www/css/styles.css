@@ -1,0 +1,887 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+
+body{
+
+	font-family: GillSans;
+	color: #7b7b7b;
+
+}
+
+h1{
+	color: #d01573;
+	text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+
+	font-family: GillSans;
+}
+
+
+
+
+
+.mar-top8per{
+	padding-top: 8%;
+    margin-bottom: 2%;
+}
+
+.mar-bot0{
+	margin-bottom: 0!important;
+}
+.mar-bot1per{
+
+	margin-bottom: 1%!important;
+}
+
+.mar-bot3per{
+
+	margin-bottom: 3%!important;
+}
+
+.mar-auto{
+
+	margin: auto;
+}
+
+.pad5per{
+	padding:0 5%;
+}
+
+.text-white{
+
+	color: white;
+
+}
+
+
+.container{
+	padding: 0 5%;
+}
+
+.fullwidth{
+	width: 100%;
+}
+
+
+.pad-2per{
+
+	padding:2%;
+}
+
+.pad-1per{
+
+	padding: 0 1%;
+	margin-bottom: 5%;
+}
+.pad-1per img{
+
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+.statusbar-overlay {
+    background: #000000;
+}
+
+.navbar-fixed .toolbar {
+    top: initial;
+}
+
+
+#myImage{
+/*	height: 100%;
+    width: 100%;*/
+}
+
+.border{
+
+	border: 1px solid black;
+}
+
+
+.page-content{
+
+	background: white;
+}
+
+.text-center{
+
+	text-align: center;
+}
+
+.text-left{
+
+	text-align: left;
+}
+
+.text-right{
+
+	text-align: right;
+}
+
+.float-right{
+	float: right;
+}
+
+.float-left{
+	float: left;
+}
+
+.no-mar{
+
+	margin: 0!important;
+}
+
+.no-pad{
+
+	padding: 0!important;
+}
+
+
+
+/*.............................login page css start .....................*/
+
+
+h1:first-child, .h1:first-child, h2:first-child, .h2:first-child, h3:first-child, .h3:first-child {
+    
+     margin-top: 0px;
+}
+
+
+.login-text{
+
+    font-family: GillSans-Light;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    margin-bottom: 1%;
+    margin-top: 7%!important;
+    color: #787879;
+}
+
+.login-btn{
+
+    font-family: GillSans-Light;
+    background: #cc0066;
+    padding: 2% 7%;
+    border: none;
+    color: white;
+    font-size: 16px;
+}
+
+.login-text-box{
+
+	font-family: GillSans-Light;
+    width: 80%;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid #c2c2c2!important;
+    font-size: 18px!important;
+    margin: auto;
+}
+
+.pink-bg{
+
+	position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.fl-bottle{
+
+    position: absolute;
+    top: 0;
+}
+
+.login-underline{
+
+	border-top: 3px solid #cc0066;
+	margin: 0;
+    width: 10%;
+    margin: auto;
+
+}
+
+.white-underline{
+
+	border-top: 3px solid white;
+	margin: 0;
+    width: 10%;
+    margin: auto;
+
+}
+
+.mar-bot{
+
+    margin-bottom: 0;
+}
+
+.mar-bot-5per{
+
+    margin-bottom: 5%;
+}
+
+
+/*.............................login page css end .....................*/
+
+/*.............................dashboard page css start .....................*/
+
+
+.bar {
+    border-bottom: 1px solid #bcc1c0;
+    padding: 0;
+}
+
+.pink-box{
+
+    background: #cc0066;
+    padding: 10% 5%;
+    position: relative;
+}
+
+.dashboard-heading{
+
+	font-family: GillSans;
+    font-size: 15px;
+    color: white;
+    font-weight: 600;
+    margin: 3% 0;
+
+}
+
+.dashboard-subheading{
+	font-family: GillSans-Light;
+    font-size: 13px;
+    color: white;
+}
+
+
+.navbar, .subnavbar, .toolbar {
+    background: white;
+}
+
+.right-arrow{
+
+	width: 4%;
+    position: absolute;
+    right: 5%;
+    bottom: 31%;
+    box-shadow: none!important;
+}
+
+.home{
+
+	margin:auto;
+    padding: 10%;
+}
+
+
+/*.............................dashboard page css end .....................*/
+
+/*.............................relaunch page css start .....................*/
+
+
+.back{
+
+	color: #d01573;
+    padding-left: 5px;
+}
+
+.relaunch-heading{
+
+	font-size: 24px;
+	margin:0;
+}
+
+.relaunch-subheading{
+
+	font-size: 24px;
+	margin:0;	
+}
+
+.relaunch-heading-container{
+
+    padding: 5% 0;
+
+}
+
+.relaunch-text{
+
+    font-family: GillSans;
+    padding: 0 8%;
+    font-size: 14px;
+    line-height: 1.5;
+
+}
+
+.pricing-text{
+
+font-family: GillSans-Light;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 3%;
+}
+
+.main-heading{
+
+	font-size: 22px;
+    margin: 5%;
+}
+
+.pinkbg{
+    background: #d01573;
+}
+
+
+
+
+.pad-bot0{
+	padding-bottom: 0!important;
+}
+
+
+.backtotop{
+	margin: 5%;
+}
+
+.video-container{
+	padding: 0 5%;
+    position: relative;
+}
+
+.download{
+
+    position: absolute;
+    top: 46%;
+    left: 28%;
+    width: 45%;
+}
+
+
+.owl-carousel{
+
+	/*padding: 0 5%; */
+
+}
+
+/*.............................relaunch page css end .....................*/
+
+
+/*.............................trade page css start .....................*/
+
+.table-header{
+
+	background: #d01573;
+}
+
+.table-border .col-25{
+
+	/*border:1px solid #d01573;*/
+	border-left: 1px solid #d01573;
+    border-bottom: 1px solid #d01573;
+}
+
+.border-right{
+
+	border-right: 1px solid #d01573;
+
+}
+
+.botted-underline{
+
+	width: 65%;
+    border-bottom: 1px dotted black;
+    margin: auto!important;
+}
+
+/*.............................trade page css end .....................*/
+
+/*.............................rssm page css start .....................*/
+
+
+.btn-task{
+
+    background: #d01573;
+    color: white;
+    width: 90%;
+    margin: auto;
+    padding: 3%;
+}
+
+
+.comp{
+
+    padding: 5%!important;
+
+}
+
+.comp img{
+
+	border:1px solid #d01573;
+}
+
+.panel {
+
+    background: white;
+
+}
+
+
+/*.............................rssm page css end .....................*/
+
+
+/*.............................menu css start .....................*/
+
+
+
+.menu-margin{
+
+	margin: 7% 0;
+}
+
+
+.cross{
+
+	float: right;
+    margin-top: 4%;
+    margin-right: 1%;
+}
+
+.profile{
+	float: left;
+	padding-right:5%;
+}
+
+
+.mar-top-35per{
+
+	margin-top: 35%;
+}
+
+.item-title{
+
+	text-transform: uppercase;
+}
+
+
+
+.content-block p{
+
+	text-transform: uppercase;
+}
+
+
+.mar-top10per{
+	
+	margin-top: 10%;
+}
+
+/*.............................menu css end .....................*/
+.bar .button.button-clear {
+    color: #c06;
+}
+.bar {box-shadow: none;height: 50px;}
+.logo-menu{
+    margin: 4px auto;
+    display: inherit;
+        width: 60%;
+}
+
+
+
+
+/*.............................feeds css start .....................*/
+
+
+
+.bg-silver{
+
+	background-color: #e6e6e6;
+	padding: 3%;
+}
+
+
+/*.............................feeds css end .....................*/
+
+
+.mar-2per{
+
+	margin:2%;
+}
+
+.ul{
+
+    text-align: left;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 5%;
+    font-size: 12px;
+}
+
+.ul img{
+
+	margin-bottom: 3px;
+}
+
+.ul p{
+
+	padding: 2%;
+}
+
+.row + .row {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.row {
+
+     padding: 0px; 
+}
+
+
+.table-border p{
+
+	padding: 10%;
+}
+
+.pad-3per{
+	 padding: 3%;
+}
+
+
+.small-heading{
+
+	font-size: 18px;
+}
+
+
+.border-p p{
+
+	border:1px solid silver;
+	margin-bottom: 1%;
+
+}
+
+.shadow-div{
+
+    margin: 3%;
+    padding: 8%;
+    box-shadow: 0px 0px 8px 1px #b2b2b2;
+    margin-bottom: 0;
+}
+
+.fullwidth-btn{
+
+	background: #d01573;
+    color: white;
+    width: 94.3%;
+    margin: auto;
+    padding: 3%;
+    text-transform: uppercase;
+}
+
+
+
+.mar-top8per{
+
+	margin-top: 8%;
+}
+
+.font28{
+
+	font-size: 28px;
+}
+
+.mar-bot10per{
+
+	margin-bottom:10%; 
+}
+
+
+.text-box-container{
+
+	border: 1px solid #e6e6e6;
+	margin: 5%;
+}
+
+
+.textarea{
+
+	margin: 0px 2px 0px 0px;
+	width: 100%;
+	height: 120px;
+	padding: 3%;
+
+}
+
+.bg-silver p{
+
+	font-size: 14px;
+}
+.post{
+
+	border-right: 1px solid #757070;
+    padding-right: 3%;
+}
+
+.upload{
+
+	 padding: 3% 8%;
+    background: #d11a76;
+    color: white;
+        margin-right: 5%;
+}
+
+
+.feed-box{
+
+    text-align: left;
+    margin-top: 2%;
+    width: 100%;
+    /*border: 1px solid black;*/
+    padding: 5%;
+}
+
+.user{
+
+	text-align: left;
+    padding: 5% 0;
+}
+
+.mar-right3per{
+
+	margin-right: 4%;
+}
+
+.mar-topbot3per{
+	margin: 3% 0;
+}
+
+.feed-content{
+
+	font-family: GillSans;
+    line-height: 1.4;
+}
+
+.feed-border{
+
+	padding-top: 5%;
+    border: 1px solid #d11a76;
+    padding: 5%;
+}
+
+
+.text-black{
+
+    color: #5b5b5b;
+
+}
+
+.per-btn{
+	border: 1px solid #d01573;
+    padding: 5%;
+    color: #d01573;
+    font-size: 11px;
+    float: right;
+    text-transform: uppercase;
+}
+
+
+.laser-per{
+
+    margin-top: 5%;
+    padding: 0 4%;
+}
+
+.user-pad{
+    padding-right: 5%;
+}
+
+.percent-complete{
+
+    background: #d01573;
+    text-align: left;
+    padding: 5%;
+
+    padding-top: 5%!important;
+    margin-top: 2%!important;
+
+
+
+}
+
+.percent-complete h1,p{
+
+    color: white;
+}
+
+.percent-complete .font16{
+
+    /*font-size: 12px;*/
+    font-size: 16px!important;
+    margin-bottom: 5%!important;
+}
+
+
+.percent-complete p{
+
+    /*font-size: 12px;*/
+    font-size: 16px;
+    margin-bottom: 5%;
+}
+
+
+
+.pad-3per{
+
+    padding: 3%;
+
+}
+
+.mission-text{
+    
+    font-family: GillSans;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 2%;
+}
+
+
+.elapsed{
+
+    border: 1px solid #d01573;
+    padding: 3%;
+    color: #d01573;
+    text-transform: capitalize;
+    margin:auto;
+
+}
+
+.white-underline{
+
+    border-top: 3px solid #ffffff;
+    margin: 0;
+    width: 38%;
+}
+
+.about-white-underline{
+
+    border-top: 3px solid #ffffff;
+    margin: auto;
+    width: 20%;
+}
+
+p{
+    color: #5b5b5b;
+
+}
+
+
+.pad-5per{
+    padding: 5%;
+
+}
+
+
+
+
+.border-ul {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+    font-size: 12px;
+}
+
+
+.border-ul img{
+
+    margin-bottom: 3px;
+}
+
+.border-ul p{
+
+    padding: 2%;
+}
+
+
+.ulfullwidth {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+    font-size: 12px;
+}
+
+.ulfullwidth img{
+
+    margin-bottom: 3px;
+}
+
+.ulfullwidth p{
+
+    padding: 2%;
+}
+
+.pad-right2per{
+
+    padding-right: 2%;
+}
+
+.pad-left2per{
+
+    padding-left: 2%;
+}
+
+.font12{
+
+    font-size: 12px;
+}
+
+.mordern-black{
+
+    font-size: 14px;
+    color: #5b5b5b;
+}
+
+
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+.story-pinkbg{
+    
+    background: #d01573;
+    height: 300px;
+    position: relative;
+}
+
+.half-video{
+    position: absolute;
+    top: -40%;
+}
+
+
+/*menu*/
+/*
+.menu-open .bar.bar-header.expanded {
+    background-color: #fff;
+}
+
+
+.bar .button-stable, .bar .button-stable.activated, .bar .button-stable:active, .bar .button-stable:hover, .bar-stable, .bar-stable.activated, .bar-stable:active, .bar-stable:hover, .button-bar-stable, .button-bar-stable.activated, .button-bar-stable:active, .button-bar-stable:hover, .button-stable, .button-stable.activated, .button-stable:active, .button-stable:hover, .header-stable, .header-stable.activated, .header-stable:active, .header-stable:hover, .stable-bg, .stable-bg.activated, .stable-bg:active, .stable-bg:hover, .stable-border, .stable-border.activated, .stable-border:active, .stable-border:hover{
+
+    background-color: white;
+}*/
